@@ -73,3 +73,11 @@ Now we are coding the flow needed to convert our pattern into markup language. C
 
 We are green and our first functionality is covered. It's time to face the next functionality.
 The next functionality we are going to cover is to parse an image. Lets create a test for this check ImageParserTest.php
+
+##STEP 6
+
+###UrlParser another class
+
+We have created our new test for the new funcionality lets fix it declaring the new class needed check ImageParser.php
+
+

@@ -6,14 +6,11 @@ use Hixman\Kata\ImageParser;
 
 class ImageParserTest extends BaseTest
 {
-    /**
-     * We create a test to check that a class can be instantiated properly.
-     */
     public function testCreateImageParserTest()
     {
         //GIVEN
         //WHEN
-        $imageParser = new ImagePaser();
+        $imageParser = new ImageParser();
         //THEN
         $this->assertInstanceOf(ImageParser::class, $imageParser);
     }
