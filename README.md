@@ -158,3 +158,9 @@ Ok, we have a bunch of awesome parsers but they have to be sticked together beca
 ###Implementing ParserRunner
 
 Acording to our test suite we need a new class called ParserRunner. Lets create it. check ParserRunner.php
+
+##STEP 18
+
+###Parse them all
+
+We are going to create a test to attach parsers to parser runner and then parse all parsers attached to parser runner. check ParserRunnerTest.php
