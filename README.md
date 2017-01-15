@@ -135,3 +135,13 @@ We have a common class that wraps our common method but we want to expose a publ
 First add to all tests an interface assertion. check BoldParserTest.php, ImageParserTest.php, LinkParserTest.php
 
 ![alt step-14](https://cloud.githubusercontent.com/assets/1638531/21964867/4855ad1a-db54-11e6-8f8b-7968ca283314.png)
+
+##STEP 15
+
+###All parsers implement ParserInterface
+
+We are red now lets make all parsers implement our ParserInterface. check ParserInterface, LinkParser.php, ImageParser.php, BoldParser.php 
+
+And once again execute your test suite. GREEN!
+
+![alt step-14](https://cloud.githubusercontent.com/assets/1638531/21964938/afbcbdda-db55-11e6-85bb-522b4c38aca4.png)

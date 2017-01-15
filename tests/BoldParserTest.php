@@ -14,9 +14,6 @@ class BoldParserTest extends BaseTest
         $boldParser = new BoldParser();
         //THEN
         $this->assertInstanceOf(BoldParser::class, $boldParser);
-        /**
-         * We assert that parser is an instance of ParserInterface
-         */
         $this->assertInstanceOf(ParserInterface::class, $boldParser);
     }
 

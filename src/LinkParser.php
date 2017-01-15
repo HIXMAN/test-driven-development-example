@@ -6,7 +6,7 @@ namespace Hixman\Kata;
  * Class LinkParser
  * @package Hixman\Kata
  */
-class LinkParser extends AbstractParser
+class LinkParser extends AbstractParser implements ParserInterface
 {
     protected function pattern() : string
     {

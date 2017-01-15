@@ -6,7 +6,7 @@ namespace Hixman\Kata;
  * Class BoldParser
  * @package Hixman\Kata
  */
-class BoldParser extends AbstractParser
+class BoldParser extends AbstractParser implements ParserInterface
 {
     protected function pattern() : string
     {

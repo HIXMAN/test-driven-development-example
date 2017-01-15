@@ -14,9 +14,6 @@ class ImageParserTest extends BaseTest
         $imageParser = new ImageParser();
         //THEN
         $this->assertInstanceOf(ImageParser::class, $imageParser);
-        /**
-         * We assert that parser is an instance of ParserInterface
-         */
         $this->assertInstanceOf(ParserInterface::class, $imageParser);
     }
 

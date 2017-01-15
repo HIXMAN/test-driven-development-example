@@ -14,9 +14,6 @@ class LinkParserTest extends BaseTest
         $linkParser = new LinkParser();
         //THEN
         $this->assertInstanceOf(LinkParser::class, $linkParser);
-        /**
-         * We assert that parser is an instance of ParserInterface
-         */
         $this->assertInstanceOf(ParserInterface::class, $linkParser);
     }
 

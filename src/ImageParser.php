@@ -6,7 +6,7 @@ namespace Hixman\Kata;
  * Class ImageParser
  * @package Hixman\Kata
  */
-class ImageParser extends AbstractParser
+class ImageParser extends AbstractParser implements ParserInterface
 {
     protected function pattern() : string
     {
