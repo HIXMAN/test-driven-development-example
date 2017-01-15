@@ -20,3 +20,16 @@ We are goind tou build a text parser whith this functionalities:
 - Parse bold text.
 - Parse an image.
 - Parse a link.
+
+##STEP 0
+
+###Setting up the environment
+
+We need a xUnit framework to write our test and we are coding in PHP so PHPUnit will be our xUnit tool. This is our only mandatory library dependency.
+
+We have two separates namespaces `Hixman\Kata` placed in /src and `Hixman\Kata\Tests` placed in /tests. In the src is where we are going to code our tool classes and int tests will be our tests classes.
+
+Lets go to the next step changing our branch to step-1
+
+
+
