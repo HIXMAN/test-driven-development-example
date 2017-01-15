@@ -92,3 +92,9 @@ We have a new class that will wrap our new functionality but it still does not d
 
 Red state again and we have to fix it again. Lets create a method in ImageParser due to go to green state. Check ImageParser.php
 
+##STEP 9
+
+###Another iteration another functionality LinkParser
+ 
+ We have added another functionality (image parser) covered with tests now we have to keep rolling. Check LinkParserTest.php
+ 

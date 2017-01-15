@@ -9,8 +9,6 @@ namespace Hixman\Kata;
 class ImageParser
 {
     /**
-     * Flow is exactly the same as the BoldParser this
-     * give us a good information due to do a refactor.
      * @param string $text
      * @return string
      */
