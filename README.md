@@ -98,3 +98,9 @@ Red state again and we have to fix it again. Lets create a method in ImageParser
  
  We have added another functionality (image parser) covered with tests now we have to keep rolling. Check LinkParserTest.php
  
+ ##STEP 10
+ 
+ ###LinkParser creation
+ 
+ We create a new class Link parser to go green state. Check LinkParser.php
+ 
