@@ -15,9 +15,6 @@ class LinkParserTest extends BaseTest
         $this->assertInstanceOf(LinkParser::class, $linkParser);
     }
 
-    /**
-     * Lets add a new method in test class for LinkParser. Next step.
-     */
     public function testImageParserParseImage()
     {
         //GIVEN
