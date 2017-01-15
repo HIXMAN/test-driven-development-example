@@ -145,3 +145,10 @@ We are red now lets make all parsers implement our ParserInterface. check Parser
 And once again execute your test suite. GREEN!
 
 ![alt step-14](https://cloud.githubusercontent.com/assets/1638531/21964938/afbcbdda-db55-11e6-85bb-522b4c38aca4.png)
+
+
+##STEP 16
+
+###Parser must work together
+
+Ok, we have a bunch of awesome parsers but they have to be sticked together because they must be executed sequentially for the same text. Lets create a ParserRunner to run a few parser against the same text. Check ParserRunnerTest.php
