@@ -98,7 +98,7 @@ Red state again and we have to fix it again. Lets create a method in ImageParser
  
  We have added another functionality (image parser) covered with tests now we have to keep rolling. Check LinkParserTest.php
  
-##STEP 9
+##STEP 10
  
 ###LinkParser creation
  
