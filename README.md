@@ -18,6 +18,7 @@ The code will be split in branches named as step-x (step-0, step-1, step-2,...) 
 We are goind tou build a text parser whith this functionalities:
 
     - Parse bold text.
+    
     - Parse an url.
+    
     - Parse an image.
- 
