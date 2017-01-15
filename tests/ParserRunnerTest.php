@@ -6,9 +6,6 @@ use Hixman\Kata\ParserRunner;
 
 class ParserRunnerTest extends BaseTest
 {
-    /**
-     * We create a test for ParserRunner. next step.
-     */
     public function testCreateLinkParserTest()
     {
         //GIVEN

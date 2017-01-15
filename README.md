@@ -152,3 +152,9 @@ And once again execute your test suite. GREEN!
 ###Parser must work together
 
 Ok, we have a bunch of awesome parsers but they have to be sticked together because they must be executed sequentially for the same text. Lets create a ParserRunner to run a few parser against the same text. Check ParserRunnerTest.php
+
+##STEP 17
+
+###Implementing ParserRunner
+
+Acording to our test suite we need a new class called ParserRunner. Lets create it. check ParserRunner.php
