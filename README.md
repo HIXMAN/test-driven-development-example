@@ -67,5 +67,9 @@ Lets make our test suite red again adding another test case to our test class ch
 
 Now we are coding the flow needed to convert our pattern into markup language. Check BoldParser.php
 
+##STEP 5
 
+###UrlParser another test class.
 
+We are green and our first functionality is covered. It's time to face the next functionality.
+The next functionality we are going to cover is to parse an image. Lets create a test for this check ImageParserTest.php

@@ -9,9 +9,6 @@ namespace Hixman\Kata;
 class BoldParser
 {
     /**
-     * A regular expression that finds our pattern in the
-     * text given and the markup template to replace it.
-     * Now we are green again. Lets go to the next step.
      * @param string $text
      * @return string
      */
