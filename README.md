@@ -86,3 +86,9 @@ We have created our new test for the new funcionality lets fix it declaring the 
 
 We have a new class that will wrap our new functionality but it still does not do anything lets give it some meaning. check ImageParserTest.php
 
+##STEP 8
+
+###Create parse method in ImageParser
+
+Red state again and we have to fix it again. Lets create a method in ImageParser due to go to green state. Check ImageParser.php
+
