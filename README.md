@@ -50,6 +50,16 @@ At this step our tests does not pass so lets check why. We are trying to instant
 
 ![alt step-1](https://cloud.githubusercontent.com/assets/1638531/21962936/7a62e198-db30-11e6-8f92-49f561108a9e.png)
 
+##STEP 3
+
+###To refactor or not to refactor and red again
+
+Sometimes you dont need to refactor because of complexity of your iteration and in this case we just added a class what it is impossible to refactor.
+
+Lets make our test suite red again adding another test case to our test class check BoldParserTest.php
+
+![alt step-1](https://cloud.githubusercontent.com/assets/1638531/21963052/5228f3e0-db33-11e6-8a79-f658e871f88b.png)
+
 
 
 

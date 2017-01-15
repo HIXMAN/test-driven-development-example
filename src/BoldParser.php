@@ -8,8 +8,4 @@ namespace Hixman\Kata;
  */
 class BoldParser
 {
-    /**
-     * We just need the declaration of the class to pass our test suite.
-     * So here it is.
-     */
 }
