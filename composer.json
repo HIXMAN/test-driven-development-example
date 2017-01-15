@@ -1,0 +1,23 @@
+{
+    "name": "hixman/test-driven-development-example",
+    "description": "Test driven development kata.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hixman",
+            "email": "hixman88@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hixman\\Kata\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hixman\\Kata\\Tests\\": "tests"
+        }
+    }
+}
