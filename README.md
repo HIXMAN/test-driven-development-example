@@ -125,3 +125,13 @@ At this point we have all type of parser covered with tests, so now its time to 
 We can see that all classes have a commom method `parse($text)` and the same workflow. This information let us know that we can extract that method to a common abstract class. 
 
 check AbstractParser.php, LinkParser.php, ImageParser.php, BoldParser.php
+
+##STEP 14
+
+###Lets abstract parse method to an interface.
+
+We have a common class that wraps our common method but we want to expose a public api for all of this parser classes so we should extract this method to an interface.
+ 
+First add to all tests an interface assertion. check BoldParserTest.php, ImageParserTest.php, LinkParserTest.php
+
+![alt step-14](https://cloud.githubusercontent.com/assets/1638531/21964867/4855ad1a-db54-11e6-8f8b-7968ca283314.png)

@@ -3,6 +3,7 @@
 namespace Hixman\Kata\Tests;
 
 use Hixman\Kata\LinkParser;
+use Hixman\Kata\ParserInterface;
 
 class LinkParserTest extends BaseTest
 {
@@ -13,6 +14,10 @@ class LinkParserTest extends BaseTest
         $linkParser = new LinkParser();
         //THEN
         $this->assertInstanceOf(LinkParser::class, $linkParser);
+        /**
+         * We assert that parser is an instance of ParserInterface
+         */
+        $this->assertInstanceOf(ParserInterface::class, $linkParser);
     }
 
     public function testImageParserParseImage()
