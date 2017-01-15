@@ -31,5 +31,17 @@ We have two separates namespaces `Hixman\Kata` placed in /src and `Hixman\Kata\T
 
 Lets go to the next step changing our branch to step-1
 
+##STEP 1
+
+###First things first
+
+When you approach a development you have to focus on what you need, so according to our functionalities we need three different parsers lets take one (bold parser) and lets see what we need to parse a text to a bold text.
+
+In a first review we are going to need a regular expression to find our defined pattern and then convert it to a markup syntax. But we are coding with TDD so first we are going to define our classes and code usage flow before. Check BoldParserTest.php
+
+![alt step-1](https://cloud.githubusercontent.com/assets/1638531/21962799/a6ca62bc-db2e-11e6-8729-deb92c33fc58.png)
+
+
+
 
 
