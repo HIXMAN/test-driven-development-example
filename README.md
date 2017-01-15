@@ -176,3 +176,23 @@ Ok, now we have our test suite in red state because we need to implement our new
 ###Fixing and Refactoring test cases
 
 We have checked that our test cases didnt work as expected when the string given is more complicated. We need to fix this to ensure that our test cases are testing what we want to test. Lets fix it. check ImageParserTest.php, LinkParserTest and BaseTest.php
+
+
+##REVIEW
+
+This is the resulting UML diagram:
+
+![uml](https://cloud.githubusercontent.com/assets/1638531/21966126/00c53640-db6e-11e6-8aba-4475abc9e87f.png)
+
+
+Thats all!
+
+Feel free to open an issue to give me some feedback or contact me in [twitter](https://twitter.com/hixman88).
+
+Sorry for my english, it's not really good.
+ 
+ i hope you liked it.
+
+And keep your tests suite always green!
+
+![alt step-14](https://cloud.githubusercontent.com/assets/1638531/21965783/11560b62-db67-11e6-8013-c67961c04d77.png)
