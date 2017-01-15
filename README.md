@@ -13,5 +13,11 @@ This repository is a guided example where you can learn TDD fundamentals reading
 
 The code will be split in branches named as step-x (step-0, step-1, step-2,...) so when you finish a step you have to change to the next branch|step. I will add some explanation in this README so you have to read this readme before the code when you arrive to a new branch
 
+##WHAT ARE WE GOING TO CODE
 
+We are goind tou build a text parser whith this functionalities:
+
+    - Parse bold text.
+    - Parse an url.
+    - Parse an image.
  
