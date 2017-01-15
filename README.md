@@ -80,4 +80,9 @@ The next functionality we are going to cover is to parse an image. Lets create a
 
 We have created our new test for the new funcionality lets fix it declaring the new class needed check ImageParser.php
 
+##STEP 7
+
+###More coding flow structures
+
+We have a new class that will wrap our new functionality but it still does not do anything lets give it some meaning. check ImageParserTest.php
 
