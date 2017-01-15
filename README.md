@@ -164,3 +164,9 @@ Acording to our test suite we need a new class called ParserRunner. Lets create 
 ###Parse them all
 
 We are going to create a test to attach parsers to parser runner and then parse all parsers attached to parser runner. check ParserRunnerTest.php
+
+##STEP 19
+
+###Implementing parser runner
+
+Ok, now we have our test suite in red state because we need to implement our new methods in ParserRunner.php, check ParserRunner.php

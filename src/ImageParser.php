@@ -10,7 +10,7 @@ class ImageParser extends AbstractParser implements ParserInterface
 {
     protected function pattern() : string
     {
-        return '/!\[(.*)\]\((.*?)\)/';
+        return '/!\[(.*?)\]\((.*?)\)/';
     }
 
     protected function replace() : string

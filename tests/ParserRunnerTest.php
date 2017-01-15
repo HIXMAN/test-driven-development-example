@@ -30,8 +30,8 @@ class ParserRunnerTest extends BaseTest
     public function testParserRunnerRunsABunchOfParser()
     {
         //GIVEN
-        $text = 'this is a bold text **bold text** this an image ![alt text](url.image) this is a link [link text](url.link)';
-        $expectedText = 'this is a bold text <b>bold text</b> this an image <img src="url.image" alt="alt text"/> this is a link <a href="url.link">link text</a>';
+        $text = 'this is a bold text **bold text** this ![alt text](url.image) an [link text](url.link) image ![alt text](url.image) this is a link [link text](url.link)';
+        $expectedText = 'this is a bold text <b>bold text</b> this <img src="url.image" alt="alt text"/> an <a href="url.link">link text</a> image <img src="url.image" alt="alt text"/> this is a link <a href="url.link">link text</a>';
         $boldParser = new BoldParser();
         $linkParser = new LinkParser();
         $imageParser = new ImageParser();
