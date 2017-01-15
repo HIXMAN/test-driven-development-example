@@ -2,18 +2,19 @@
 
 namespace Hixman\Kata;
 
-class LinkParser
+/**
+ * Class LinkParser
+ * @package Hixman\Kata
+ */
+class LinkParser extends AbstractParser
 {
-    /**
-     * Add a parse method to replace our
-     * link syntax to html syntax
-     * @param string $text
-     * @return string
-     */
-    public function parse(string $text) : string
+    protected function pattern() : string
     {
-        $pattern = '/\[(.*)\]\((.*?)\)/';
-        $replace = '<a href="$2">$1</a>';
-        return preg_replace($pattern, $replace, $text);
+        return '/\[(.*)\]\((.*?)\)/';
+    }
+
+    protected function replace() : string
+    {
+        return '<a href="$2">$1</a>';
     }
 }

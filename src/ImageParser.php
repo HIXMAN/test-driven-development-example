@@ -6,16 +6,15 @@ namespace Hixman\Kata;
  * Class ImageParser
  * @package Hixman\Kata
  */
-class ImageParser
+class ImageParser extends AbstractParser
 {
-    /**
-     * @param string $text
-     * @return string
-     */
-    public function parse(string $text) : string
+    protected function pattern() : string
     {
-        $pattern = '/!\[(.*)\]\((.*?)\)/';
-        $replace = '<img src="$2" alt="$1"/>';
-        return preg_replace($pattern, $replace, $text);
+        return '/!\[(.*)\]\((.*?)\)/';
+    }
+
+    protected function replace() : string
+    {
+        return '<img src="$2" alt="$1"/>';
     }
 }

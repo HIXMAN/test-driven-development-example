@@ -115,3 +115,13 @@ Red state again and we have to fix it again. Lets create a method in ImageParser
 ###Create parse method in LinkParser
 
 Red state again and we have to fix it again. Lets create a method in LinkParser due to go to green state. Check LinkParser.php
+
+##STEP 13
+
+###Ok, all functionalities covered, refactor time
+
+At this point we have all type of parser covered with tests, so now its time to make a good refactor. 
+
+We can see that all classes have a commom method `parse($text)` and the same workflow. This information let us know that we can extract that method to a common abstract class. 
+
+check AbstractParser.php, LinkParser.php, ImageParser.php, BoldParser.php
