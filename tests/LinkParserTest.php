@@ -17,15 +17,23 @@ class LinkParserTest extends BaseTest
         $this->assertInstanceOf(ParserInterface::class, $linkParser);
     }
 
+    /**
+     * We have to be more sofisticated with the string
+     * we are testing so lets add two occurences instead
+     * of only one. And lets pull up our mock texts to
+     * base test to make reusable.
+     */
     public function testImageParserParseImage()
     {
         //GIVEN
-        $expectedText = 'Hey! Check this link <a href="http://url.to.path.com/">link text</a> is awe)some!.';
-        $text = 'Hey! Check this link [link text](http://url.to.path.com/) is awe)some!.';
+        $expectedText = $this->mockLinkExpectedText();
+        $text = $this->mockLinkText();
         $linkParser = new LinkParser();
         //WHEN
         $parsedText = $linkParser->parse($text);
         //THEN
         $this->assertEquals($expectedText, $parsedText);
     }
+
+
 }

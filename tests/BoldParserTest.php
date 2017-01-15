@@ -20,12 +20,14 @@ class BoldParserTest extends BaseTest
     public function testBoldParserParseText()
     {
         //GIVEN
-        $expectedText = 'Hey! you are learning <b>TDD</b> with this awesome example.';
-        $text = 'Hey! you are learning **TDD** with this awesome example.';
+        $expectedText = $this->mockBoldExpectedText();
+        $text = $this->mockBoldText();
         $boldParser = new BoldParser();
         //WHEN
         $parsedText = $boldParser->parse($text);
         //THEN
         $this->assertEquals($expectedText, $parsedText);
     }
+
+
 }

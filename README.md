@@ -170,3 +170,9 @@ We are going to create a test to attach parsers to parser runner and then parse 
 ###Implementing parser runner
 
 Ok, now we have our test suite in red state because we need to implement our new methods in ParserRunner.php, check ParserRunner.php
+
+##STEP 20
+
+###Fixing and Refactoring test cases
+
+We have checked that our test cases didnt work as expected when the string given is more complicated. We need to fix this to ensure that our test cases are testing what we want to test. Lets fix it. check ImageParserTest.php, LinkParserTest and BaseTest.php

@@ -20,12 +20,14 @@ class ImageParserTest extends BaseTest
     public function testImageParserParseImage()
     {
         //GIVEN
-        $expectedText = 'Hey! Check this image <img src="http://url.to.image.com/tdd.jpg" alt="image"/> awe)some!.';
-        $text = 'Hey! Check this image ![image](http://url.to.image.com/tdd.jpg) awe)some!.';
+        $expectedText = $this->mockImageExpectedText();
+        $text = $this->mockImageText();
         $imageParser = new ImageParser();
         //WHEN
         $parsedText = $imageParser->parse($text);
         //THEN
         $this->assertEquals($expectedText, $parsedText);
     }
+
+
 }
