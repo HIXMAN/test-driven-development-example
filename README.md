@@ -42,6 +42,14 @@ In a first review we are going to need a regular expression to find our defined 
 ![alt step-1](https://cloud.githubusercontent.com/assets/1638531/21962799/a6ca62bc-db2e-11e6-8729-deb92c33fc58.png)
 
 
+##STEP 2
+
+###To the green state for the first time
+
+At this step our tests does not pass so lets check why. We are trying to instantiate a class that it is not declared. Lets fix this, check BoldParser.php.
+
+![alt step-1](https://cloud.githubusercontent.com/assets/1638531/21962936/7a62e198-db30-11e6-8f92-49f561108a9e.png)
+
 
 
 
