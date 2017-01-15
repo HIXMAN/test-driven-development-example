@@ -15,10 +15,6 @@ class BoldParserTest extends BaseTest
         $this->assertInstanceOf(BoldParser::class, $boldParser);
     }
 
-    /**
-     * Here we are defining how BoldParser will parse a text
-     * defining the method naming and content returned.
-     */
     public function testBoldParserParseText()
     {
         //GIVEN

@@ -61,5 +61,11 @@ Lets make our test suite red again adding another test case to our test class ch
 ![alt step-1](https://cloud.githubusercontent.com/assets/1638531/21963052/5228f3e0-db33-11e6-8a79-f658e871f88b.png)
 
 
+##STEP 4
+
+###Coding flow structures... awesome! Lets fix that red suite.
+
+Now we are coding the flow needed to convert our pattern into markup language. Check BoldParser.php
+
 
 
