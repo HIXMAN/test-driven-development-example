@@ -186,12 +186,8 @@ This is the resulting UML diagram:
 
 
 Thats all!
-
-Feel free to open an issue to give me some feedback or contact me in [twitter](https://twitter.com/hixman88).
-
-Sorry for my english, it's not really good.
  
- i hope you liked it.
+I hope you liked it.
 
 And keep your tests suite always green!
 
